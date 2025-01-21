@@ -1,0 +1,216 @@
+@media (max-width: 1300px) {
+  .firstContent > h1 {
+    font-size: 130px;
+  }
+
+  .content__image {
+    margin-top: -55px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .blocksTechnologes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    justify-items: center;
+  }
+
+  .BLT {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .firstContent > h1 {
+    font-size: 120px;
+  }
+
+  .content__image {
+    margin-top: -55px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .firstContent > h1 {
+    font-size: 100px;
+  }
+
+  .content__image {
+    margin-top: -39px;
+  }
+
+  .content__image {
+    /* background-size: 100vh auto; */
+    background-position: center;
+  }
+
+  .BlockLine1 {
+    grid-template-rows: 2fr;
+    grid-template-columns: 1fr;
+  }
+
+  .lineText {
+    grid-column-start: 1; /*  начинает размещение с первой колонки */
+    grid-column-end: 3; /* заканчивает размещение в пятой колонке (последней + 1) */
+    grid-row-start: 1; /* начинается на первой строке */
+    grid-row-end: 2; /* заканчивается на второй строке (первой + 1)*/
+    font-size: 16px;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .item1 {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .item2 {
+    grid-column-start: 2;
+    grid-row-end: 1;
+  }
+
+  .containerImage {
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+  }
+
+  .BlockLine2 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .secondContent h2 {
+    /* width: 80%; */
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .firstContent > h1 {
+    font-size: 80px;
+  }
+
+  .content__image {
+    margin-top: -30px;
+  }
+
+  .secondContent h2 {
+    /* width: 80%; */
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .contentServices {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .AIHUB__textContent {
+    flex-direction: column-reverse;
+    align-items: end;
+  }
+
+  .AIHUB__textContent p {
+    width: 100%;
+  }
+
+  .Content__navPanel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .contentInput {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 601px) {
+  .firstContent > h1 {
+    font-size: 60px;
+  }
+
+  .content__image {
+    margin-top: -20px;
+  }
+
+  .blocksTechnologes {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .secondContent h2 {
+    width: 80%;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .nav__listButtonLink > a {
+    font-size: 14px;
+  }
+
+  .contentServices > p {
+    width: 100%;
+  }
+
+  .nav__listButtonLink {
+    display: none;
+  }
+
+  .nav__buttonAccount {
+    width: 30px;
+    background-color: none;
+    pointer-events:all;
+  }
+
+  .nav__buttonAccount p {
+    display: none;
+  }
+
+  .nav__blind{
+    top: -1000;
+    transition: 0.3s ease-in-out;
+  }
+
+  .contentInput {
+    margin-bottom: 90px;
+    position: absolute;
+    bottom: 0;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 490px) {
+  .firstContent > h1 {
+    font-size: 50px;
+  }
+
+  .content__image {
+    margin-top: -17px;
+  }
+
+  .secondContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .secondContent h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .nav__listButtonLink > a {
+    font-size: 11px;
+  }
+
+  .nav__buttonAccount p {
+    display: none;
+  }
+
+  .nav__buttonAccount {
+    width: 30px;
+  }
+}
