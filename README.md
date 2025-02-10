@@ -8,3 +8,7 @@
 <br>
 <br>
  <img src="./Screenshots/screenshot-1.png" alt="Пример стилизованного изображения" style="width: 100%; height: auto; border-radius: 10px;">
+
+
+<hr>
+@STAMBOLIDI_CERTIFIED
