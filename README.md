@@ -1,5 +1,5 @@
 # AIHUB: Ваш хаб в мире AI-изображений  <img src="./Logo Animation Title.gif" alt="Пример стилизованного изображения" style="width: 50px; height: auto; border-radius: 10px;">
-![GitHub project status](https://img.shields.io/badge/Status-Completed%202025-brightgreen)
+![GitHub project status](https://img.shields.io/badge/Status-Completed%202025-brightgreen) ![GitHub project status](https://img.shields.io/badge/Status-Completed-green)
 <h3>AIHUB - это платформа с интуитивно понятным макетом, предназначенная для генерации, обработки и демонстрации AI-изображений. Изучайте новые технологии и создавайте собственные шедевры.</h3>
  <br>
 + Сайт доступен для просмотра по ссылке:` <a href="https://stambolidi-certified.github.io/AIHUB/">Перейти к AIHUB</a>
